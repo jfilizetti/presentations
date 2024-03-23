@@ -1,0 +1,43 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 1K of event 'cycles'
+# Event count (approx.): 42713925455
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    48.29%    44.55%     3.74%     5280:cp             
+    47.65%    45.48%     2.17%     5279:cp             
+     1.11%     1.11%     0.00%        0:swapper        
+     0.63%     0.63%     0.00%     4612:kworker/u16:2-e
+     0.45%     0.45%     0.00%      815:xfsaild/dm-2   
+     0.38%     0.38%     0.00%     5261:kworker/u16:4-e
+     0.33%     0.33%     0.00%     5274:unix_chkpwd    
+     0.22%     0.22%     0.00%       39:kworker/3:0H-xf
+     0.21%     0.21%     0.00%      333:kworker/6:1H-xf
+     0.15%     0.14%     0.00%     5272:sudo           
+     0.14%     0.14%     0.00%     4762:kworker/1:2-eve
+     0.10%     0.10%     0.00%     3495:kworker/2:1-xfs
+     0.10%     0.10%     0.00%       25:ksoftirqd/1    
+     0.09%     0.09%     0.00%     5276:bash           
+     0.07%     0.07%     0.00%     4780:sshd           
+     0.03%     0.03%     0.00%       17:rcu_preempt    
+     0.02%     0.01%     0.01%     5232:vmstat         
+     0.01%     0.01%     0.00%     5281:kworker/5:2    
+     0.01%     0.01%     0.00%     1590:in:imjournal   
+     0.01%     0.01%     0.00%      700:systemd-journal
+     0.00%     0.00%     0.00%      506:kworker/4:1H-kb
+     0.00%     0.00%     0.00%     5277:seq            
+     0.00%     0.00%     0.00%       73:kauditd        
+     0.00%     0.00%     0.00%     1094:polkitd        
+     0.00%     0.00%     0.00%     1648:tmux: server   
+     0.00%     0.00%     0.00%       18:migration/0    
+     0.00%     0.00%     0.00%     5271:perf           
+
+
+#
+# (Tip: Search options using a keyword: perf report -h <keyword>)
+#

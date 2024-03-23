@@ -1,0 +1,60 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 9K of event 'cycles'
+# Event count (approx.): 387608693330
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    17.87%     9.74%     8.14%      991:auditd         
+    13.99%    10.24%     3.75%      848:systemd-journal
+    11.82%     9.46%     2.35%      995:audisp-syslog  
+     9.35%     7.75%     1.60%      996:auditd         
+     8.32%     7.96%     0.36%    11714:cp             
+     8.10%     7.71%     0.39%    11712:cp             
+     7.86%     7.59%     0.27%    11713:cp             
+     7.80%     7.47%     0.33%    11711:cp             
+     6.25%     6.25%     0.00%        0:swapper        
+     5.16%     5.16%     0.00%       78:kauditd        
+     1.21%     0.76%     0.44%    11328:in:imjournal   
+     0.50%     0.49%     0.01%      993:auditd         
+     0.38%     0.38%     0.00%    11512:kworker/u16:1-e
+     0.16%     0.16%     0.00%      972:xfsaild/dm-2   
+     0.13%     0.13%     0.00%    10294:kworker/u16:0-e
+     0.11%     0.11%     0.00%    11715:journal-offline
+     0.09%     0.09%     0.00%    11569:kworker/4:2-xfs
+     0.08%     0.08%     0.00%      612:kworker/4:1H-xf
+     0.08%     0.08%     0.00%    11361:kworker/5:1-xfs
+     0.08%     0.08%     0.00%    11278:kworker/7:0-xfs
+     0.07%     0.07%     0.00%      348:kworker/5:1H-kb
+     0.07%     0.07%     0.00%      615:kworker/0:1H-xf
+     0.07%     0.07%     0.00%      127:kworker/1:1H-xf
+     0.07%     0.07%     0.00%      607:kworker/2:1H-xf
+     0.07%     0.07%     0.00%    11647:kworker/6:2-xfs
+     0.06%     0.06%     0.00%    11597:kworker/1:2-xfs
+     0.05%     0.05%     0.00%    11376:kworker/3:2-eve
+     0.04%     0.04%     0.00%    11706:unix_chkpwd    
+     0.04%     0.04%     0.00%      558:kworker/7:1H-xf
+     0.02%     0.02%     0.00%       61:ksoftirqd/7    
+     0.02%     0.01%     0.01%    11630:vmstat         
+     0.02%     0.02%     0.00%    11704:sudo           
+     0.01%     0.01%     0.00%     1132:gmain          
+     0.01%     0.01%     0.00%      308:kworker/3:1H-xf
+     0.01%     0.01%     0.00%    11346:kworker/2:2-eve
+     0.01%     0.01%     0.00%    10986:kworker/0:2-xfs
+     0.01%     0.01%     0.00%      774:xfsaild/dm-0   
+     0.01%     0.01%     0.00%       94:kworker/6:1H-xf
+     0.00%     0.00%     0.00%    11710:xargs          
+     0.00%     0.00%     0.00%    11709:seq            
+     0.00%     0.00%     0.00%    11708:bash           
+     0.00%     0.00%     0.00%    11707:time           
+     0.00%     0.00%     0.00%       17:rcu_preempt    
+     0.00%     0.00%     0.00%    11703:perf           
+
+
+#
+# (Tip: For memory address profiling, try: perf mem record / perf mem report)
+#

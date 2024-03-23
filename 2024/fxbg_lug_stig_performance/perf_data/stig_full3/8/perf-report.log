@@ -1,0 +1,105 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 186K of event 'cycles'
+# Event count (approx.): 5615443771920
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+     9.65%     2.97%     6.68%    14726:OASManager     
+     9.62%     2.96%     6.66%    14718:OASManager     
+     9.56%     2.90%     6.66%    14729:OASManager     
+     9.55%     2.91%     6.64%    14724:OASManager     
+     9.55%     2.87%     6.69%    14721:OASManager     
+     7.28%     2.86%     4.42%    11817:fapolicyd      
+     7.06%     4.30%     2.76%    14776:OAS Res Br<-Mgr
+     6.16%     4.47%     1.70%    14760:Collect FA Evnt
+     4.10%     4.10%     0.00%        0:swapper        
+     3.25%     1.72%     1.53%      991:auditd         
+     2.47%     1.58%     0.88%      848:systemd-journal
+     1.83%     1.43%     0.40%      995:audisp-syslog  
+     1.73%     1.03%     0.70%    14735:OAS Req Mgr<-Br
+     1.59%     0.91%     0.68%    14775:OAS Req Br->Mgr
+     1.44%     1.23%     0.22%    11815:fapolicyd      
+     1.36%     1.04%     0.32%      996:auditd         
+     1.22%     1.18%     0.04%    15015:cp             
+     1.21%     1.17%     0.04%    15019:cp             
+     1.20%     0.81%     0.39%    14733:OAS Res Mgr->Br
+     1.18%     1.13%     0.05%    15022:cp             
+     1.18%     1.14%     0.04%    15016:cp             
+     1.17%     1.13%     0.04%    15017:cp             
+     1.16%     1.11%     0.05%    15018:cp             
+     1.14%     1.11%     0.03%    15020:cp             
+     1.13%     1.08%     0.04%    15021:cp             
+     0.79%     0.47%     0.32%    11328:in:imjournal   
+     0.70%     0.60%     0.10%    14762:Send FA Reply  
+     0.53%     0.53%     0.00%       78:kauditd        
+     0.15%     0.09%     0.06%    14720:Timeout Thread 
+     0.14%     0.08%     0.06%    14731:Timeout Thread 
+     0.14%     0.09%     0.05%    14722:Timeout Thread 
+     0.14%     0.08%     0.05%    14728:Timeout Thread 
+     0.13%     0.08%     0.05%    14725:Timeout Thread 
+     0.09%     0.08%     0.00%      993:auditd         
+     0.03%     0.03%     0.00%      972:xfsaild/dm-2   
+     0.03%     0.03%     0.00%    14806:kworker/u16:0-e
+     0.03%     0.03%     0.00%    14995:kworker/u16:1-x
+     0.03%     0.02%     0.01%    11329:rs:main Q:Reg  
+     0.03%     0.03%     0.00%       17:rcu_preempt    
+     0.02%     0.02%     0.00%    11782:kworker/u16:4-f
+     0.02%     0.02%     0.00%      127:kworker/1:1H-xf
+     0.01%     0.01%     0.00%      558:kworker/7:1H-xf
+     0.01%     0.01%     0.00%    14993:kworker/4:2-eve
+     0.01%     0.01%     0.00%    14910:kworker/1:2-mm_
+     0.01%     0.01%     0.00%      612:kworker/4:1H-kb
+     0.01%     0.01%     0.00%    14937:kworker/5:1-eve
+     0.01%     0.01%     0.00%    14971:kworker/3:0-eve
+     0.01%     0.01%     0.00%    14852:kworker/2:1-xfs
+     0.01%     0.01%     0.00%    14781:vmstat         
+     0.01%     0.01%     0.00%    14977:kworker/7:2-xfs
+     0.01%     0.01%     0.00%    14940:kworker/6:2-mm_
+     0.01%     0.01%     0.00%    15029:kworker/3:1    
+     0.01%     0.01%     0.00%    15030:journal-offline
+     0.01%     0.01%     0.00%    15023:journal-offline
+     0.01%     0.01%     0.00%    15026:journal-offline
+     0.01%     0.01%     0.00%    15025:journal-offline
+     0.01%     0.01%     0.00%    15031:journal-offline
+     0.01%     0.01%     0.00%      308:kworker/3:1H-xf
+     0.01%     0.01%     0.00%      607:kworker/2:1H-xf
+     0.01%     0.01%     0.00%      615:kworker/0:1H-xf
+     0.01%     0.01%     0.00%      348:kworker/5:1H-xf
+     0.00%     0.00%     0.00%    14939:kworker/0:1-xfs
+     0.00%     0.00%     0.00%    15007:perf           
+     0.00%     0.00%     0.00%       37:ksoftirqd/3    
+     0.00%     0.00%     0.00%    15010:unix_chkpwd    
+     0.00%     0.00%     0.00%       25:ksoftirqd/1    
+     0.00%     0.00%     0.00%       16:pr/tty0        
+     0.00%     0.00%     0.00%       94:kworker/6:1H-xf
+     0.00%     0.00%     0.00%       43:ksoftirqd/4    
+     0.00%     0.00%     0.00%     4318:tmux: server   
+     0.00%     0.00%     0.00%    14690:mfetpd         
+     0.00%     0.00%     0.00%     1036:irqbalance     
+     0.00%     0.00%     0.00%       31:ksoftirqd/2    
+     0.00%     0.00%     0.00%      774:xfsaild/dm-0   
+     0.00%     0.00%     0.00%    15008:sudo           
+     0.00%     0.00%     0.00%       49:ksoftirqd/5    
+     0.00%     0.00%     0.00%       61:ksoftirqd/7    
+     0.00%     0.00%     0.00%       55:ksoftirqd/6    
+     0.00%     0.00%     0.00%    15027:kworker/1:0    
+     0.00%     0.00%     0.00%    11206:sshd           
+     0.00%     0.00%     0.00%     1114:NetworkManager 
+     0.00%     0.00%     0.00%     3065:macompatsvc    
+     0.00%     0.00%     0.00%    15009:perf           
+     0.00%     0.00%     0.00%     3063:macompatsvc    
+     0.00%     0.00%     0.00%    14719:OAS Mount Watch
+     0.00%     0.00%     0.00%    15012:bash           
+     0.00%     0.00%     0.00%    14777:OAS Br WatchDog
+     0.00%     0.00%     0.00%    15014:xargs          
+     0.00%     0.00%     0.00%     1032:dbus-broker    
+
+
+#
+# (Tip: Skip collecting build-id when recording: perf record -B)
+#

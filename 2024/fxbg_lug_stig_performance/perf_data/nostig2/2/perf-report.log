@@ -1,0 +1,46 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 999  of event 'cycles'
+# Event count (approx.): 37104296224
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    47.64%    45.52%     2.12%     3568:cp             
+    47.26%    44.68%     2.58%     3567:cp             
+     2.11%     2.11%     0.00%     3319:kworker/u16:1-e
+     0.69%     0.69%     0.00%      815:xfsaild/dm-2   
+     0.58%     0.58%     0.00%      506:kworker/4:1H-xf
+     0.53%     0.53%     0.00%        0:swapper        
+     0.26%     0.26%     0.00%     3562:unix_chkpwd    
+     0.13%     0.13%     0.00%     3564:bash           
+     0.13%     0.13%     0.00%     3496:kworker/3:1-xfs
+     0.12%     0.12%     0.00%     3493:kworker/6:2-xfs
+     0.11%     0.11%     0.00%     3492:kworker/0:2-xfs
+     0.09%     0.09%     0.00%     3560:sudo           
+     0.08%     0.08%     0.00%     3565:seq            
+     0.05%     0.05%     0.00%       17:rcu_preempt    
+     0.04%     0.00%     0.04%      826:dbus-broker    
+     0.03%     0.03%     0.00%      544:kworker/2:1H-xf
+     0.03%     0.03%     0.00%     3563:time           
+     0.02%     0.02%     0.01%      842:gmain          
+     0.02%     0.02%     0.00%     3491:kworker/5:0-eve
+     0.02%     0.02%     0.00%     3566:xargs          
+     0.01%     0.01%     0.00%      700:systemd-journal
+     0.01%     0.01%     0.01%     3522:vmstat         
+     0.01%     0.01%     0.00%     2952:kworker/u16:0-e
+     0.01%     0.00%     0.01%     1095:tuned          
+     0.01%     0.00%     0.01%      863:tuned          
+     0.01%     0.01%     0.00%      333:kworker/6:1H-kb
+     0.01%     0.01%     0.00%        1:systemd        
+     0.00%     0.00%     0.00%      830:irqbalance     
+     0.00%     0.00%     0.00%     1094:polkitd        
+     0.00%     0.00%     0.00%     3559:perf           
+
+
+#
+# (Tip: To add Node.js USDT(User-Level Statically Defined Tracing): perf buildid-cache --add `which node`)
+#

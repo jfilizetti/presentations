@@ -1,0 +1,22 @@
+# Generate collapsed stacks
+
+	find . -name "*.script" | xargs -i bash -c 'stackcollapse-perf.pl --all {} > {}.collapse'
+
+
+# Generate flame graphs
+
+	find . -name "*.collapse" | xargs -i bash -c 'flamegraph.pl --title {} --cp {} > {}.svg'
+
+
+# Generate perf
+
+	scripts/parse_perf-report.py -o perf_compare_1.png --suptitle='Single local copies of linux kernel source (6.7.2)' -t 'No STIG:STIG Auditing:STIG Auditing and Sending Audit logs to syslog:Full STIG except TLS log offload' ./nostig2/1/perf-report.log ./stig_audit5/1/perf-report.log ./stig_log_audit4/1/perf-report.log ./stig_full3/1/perf-report.log
+	scripts/parse_perf-report.py -o perf_compare_2.png --suptitle='Single local copies of linux kernel source (6.7.2)' -t 'No STIG:STIG Auditing:STIG Auditing and Sending Audit logs to syslog:Full STIG except TLS log offload' ./nostig2/2/perf-report.log ./stig_audit5/2/perf-report.log ./stig_log_audit4/2/perf-report.log ./stig_full3/2/perf-report.log
+	scripts/parse_perf-report.py -o perf_compare_4.png --suptitle='Single local copies of linux kernel source (6.7.2)' -t 'No STIG:STIG Auditing:STIG Auditing and Sending Audit logs to syslog:Full STIG except TLS log offload' ./nostig2/4/perf-report.log ./stig_audit5/4/perf-report.log ./stig_log_audit4/4/perf-report.log ./stig_full3/4/perf-report.log
+	scripts/parse_perf-report.py -o perf_compare_8.png --suptitle='Single local copies of linux kernel source (6.7.2)' -t 'No STIG:STIG Auditing:STIG Auditing and Sending Audit logs to syslog:Full STIG except TLS log offload' ./nostig2/8/perf-report.log ./stig_audit5/8/perf-report.log ./stig_log_audit4/8/perf-report.log ./stig_full3/8/perf-report.log
+
+
+# Generate vmstat graphs
+
+	scripts/parse_vmstat2.py -t 'No STIG:STIG Auditing:STIG Auditing and Sending Audit logs to syslog:Full STIG except TLS log offload' ./nostig/nostig_vmstat.log ./stig_audit4/stig_audit4_vmstat.log ./stig_log_audit2/stig_log_audit2_vmstat.log ./stig_full2/stig_full2_vmstat.log
+	scripts/parse_vmstat2.py -t 'No STIG:STIG Auditing:STIG Auditing and Sending Audit logs to syslog:Full STIG except TLS log offload' ./nostig2/nostig2_vmstat.log ./stig_audit5/stig_audit5_vmstat.log ./stig_log_audit4/stig_log_audit4_vmstat.log ./stig_full3/stig_full3_vmstat.log

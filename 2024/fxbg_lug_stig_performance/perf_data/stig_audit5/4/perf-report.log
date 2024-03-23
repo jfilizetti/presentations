@@ -1,0 +1,53 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 5K of event 'cycles'
+# Event count (approx.): 186654755843
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    29.72%    15.02%    14.70%     1827:auditd         
+    13.37%    12.66%     0.71%     3430:cp             
+    13.07%    12.17%     0.90%     3427:cp             
+    12.70%    12.05%     0.65%     3428:cp             
+    12.70%    12.01%     0.69%     3429:cp             
+     9.48%     9.48%     0.00%        0:swapper        
+     5.80%     5.80%     0.00%       73:kauditd        
+     0.73%     0.72%     0.01%     1828:auditd         
+     0.41%     0.41%     0.00%     2952:kworker/u16:0-e
+     0.35%     0.35%     0.00%      300:kworker/1:1H-xf
+     0.26%     0.26%     0.00%     2966:kworker/u16:2-e
+     0.24%     0.24%     0.00%      815:xfsaild/dm-2   
+     0.15%     0.15%     0.00%     2135:kworker/2:2-xfs
+     0.15%     0.15%     0.00%     3364:kworker/1:0-eve
+     0.14%     0.14%     0.00%      333:kworker/6:1H-kb
+     0.14%     0.14%     0.00%      544:kworker/2:1H-xf
+     0.11%     0.11%     0.00%     3377:kworker/3:2-xfs
+     0.08%     0.08%     0.00%     2247:kworker/6:1-xfs
+     0.08%     0.08%     0.00%       39:kworker/3:0H-kb
+     0.07%     0.07%     0.00%     3422:unix_chkpwd    
+     0.06%     0.06%     0.00%     3351:kworker/5:2-eve
+     0.03%     0.03%     0.00%     3420:sudo           
+     0.03%     0.03%     0.00%       17:rcu_preempt    
+     0.02%     0.02%     0.00%     3317:kworker/7:2-mm_
+     0.02%     0.02%     0.00%      506:kworker/4:1H-kb
+     0.02%     0.02%     0.00%     3431:kworker/4:1    
+     0.01%     0.01%     0.00%      700:systemd-journal
+     0.01%     0.01%     0.00%     3304:kworker/4:0-xfs
+     0.01%     0.01%     0.00%     2917:kworker/0:0-xfs
+     0.01%     0.00%     0.00%     1590:in:imjournal   
+     0.00%     0.00%     0.00%     3426:xargs          
+     0.00%     0.00%     0.00%     1099:gdbus          
+     0.00%     0.00%     0.00%        1:systemd        
+     0.00%     0.00%     0.00%      629:xfsaild/dm-0   
+     0.00%     0.00%     0.00%     3346:vmstat         
+     0.00%     0.00%     0.00%     3424:bash           
+     0.00%     0.00%     0.00%     3419:perf           
+
+
+#
+# (Tip: To separate samples by time use perf report --sort time,overhead,sym)
+#

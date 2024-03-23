@@ -1,0 +1,51 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 4K of event 'cycles'
+# Event count (approx.): 167903076524
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    11.91%    11.26%     0.65%     3636:cp             
+    11.87%    11.04%     0.84%     3637:cp             
+    11.74%    11.20%     0.54%     3633:cp             
+    11.66%    10.93%     0.73%     3632:cp             
+    11.55%    10.77%     0.78%     3631:cp             
+    11.54%    11.02%     0.52%     3634:cp             
+    11.48%    10.77%     0.70%     3638:cp             
+    11.43%    10.60%     0.83%     3635:cp             
+     3.31%     3.31%     0.00%        0:swapper        
+     0.86%     0.86%     0.00%     3470:kworker/u16:3-x
+     0.85%     0.85%     0.00%      815:xfsaild/dm-2   
+     0.62%     0.62%     0.00%     2952:kworker/u16:0-e
+     0.20%     0.20%     0.00%      300:kworker/1:1H-xf
+     0.17%     0.17%     0.00%      125:kworker/5:1H-kb
+     0.11%     0.11%     0.00%       89:kworker/0:1H-xf
+     0.10%     0.10%     0.00%     3491:kworker/5:0-eve
+     0.08%     0.08%     0.00%     3626:unix_chkpwd    
+     0.08%     0.08%     0.00%     3431:kworker/4:1-xfs
+     0.07%     0.07%     0.00%     3490:kworker/1:2-xfs
+     0.06%     0.05%     0.00%     3624:sudo           
+     0.06%     0.06%     0.00%      544:kworker/2:1H-kb
+     0.05%     0.05%     0.00%      333:kworker/6:1H-kb
+     0.05%     0.05%     0.00%     3376:kworker/2:0-eve
+     0.04%     0.04%     0.00%      319:kworker/7:1H-xf
+     0.04%     0.04%     0.00%     2247:kworker/6:1-mm_
+     0.03%     0.03%     0.00%      506:kworker/4:1H-kb
+     0.03%     0.03%     0.00%       39:kworker/3:0H-xf
+     0.01%     0.00%     0.01%     1095:tuned          
+     0.01%     0.01%     0.00%     3319:kworker/u16:1-e
+     0.00%     0.00%     0.00%     3630:xargs          
+     0.00%     0.00%     0.00%     1099:gdbus          
+     0.00%     0.00%     0.00%        1:systemd        
+     0.00%     0.00%     0.00%     3628:bash           
+     0.00%     0.00%     0.00%       30:migration/2    
+     0.00%     0.00%     0.00%     3623:perf           
+
+
+#
+# (Tip: Skip collecting build-id when recording: perf record -B)
+#

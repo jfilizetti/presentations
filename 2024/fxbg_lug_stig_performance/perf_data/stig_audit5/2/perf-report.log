@@ -1,0 +1,48 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 2K of event 'cycles'
+# Event count (approx.): 90944438405
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    29.79%    14.48%    15.31%     1827:auditd         
+    27.06%    25.80%     1.26%     3397:cp             
+    25.32%    24.17%     1.15%     3398:cp             
+     8.87%     8.87%     0.00%        0:swapper        
+     5.51%     5.51%     0.00%       73:kauditd        
+     0.73%     0.73%     0.00%     2952:kworker/u16:0-x
+     0.38%     0.38%     0.00%     1828:auditd         
+     0.35%     0.35%     0.00%       39:kworker/3:0H-xf
+     0.32%     0.32%     0.00%     2966:kworker/u16:2-x
+     0.24%     0.24%     0.00%      300:kworker/1:1H-xf
+     0.21%     0.21%     0.00%      815:xfsaild/dm-2   
+     0.17%     0.17%     0.00%     3247:kworker/3:0-mm_
+     0.16%     0.16%     0.00%     3364:kworker/1:0-eve
+     0.14%     0.14%     0.00%     3392:unix_chkpwd    
+     0.12%     0.12%     0.00%     2247:kworker/6:1-xfs
+     0.12%     0.12%     0.00%      333:kworker/6:1H-xf
+     0.10%     0.10%     0.00%       31:ksoftirqd/2    
+     0.07%     0.05%     0.02%     3390:sudo           
+     0.07%     0.07%     0.00%      544:kworker/2:1H-kb
+     0.05%     0.05%     0.00%     3351:kworker/5:2-eve
+     0.05%     0.05%     0.00%     3304:kworker/4:0-mm_
+     0.05%     0.00%     0.05%      700:systemd-journal
+     0.04%     0.00%     0.04%     1590:in:imjournal   
+     0.04%     0.04%     0.00%        1:systemd        
+     0.03%     0.03%     0.00%       17:rcu_preempt    
+     0.00%     0.00%     0.00%     3394:bash           
+     0.00%     0.00%     0.00%     3396:xargs          
+     0.00%     0.00%     0.00%     3391:perf           
+     0.00%     0.00%     0.00%     1648:tmux: server   
+     0.00%     0.00%     0.00%     3393:time           
+     0.00%     0.00%     0.00%     3389:perf           
+     0.00%     0.00%     0.00%       36:migration/3    
+
+
+#
+# (Tip: If you prefer Intel style assembly, try: perf annotate -M intel)
+#

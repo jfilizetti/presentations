@@ -1,0 +1,101 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 144K of event 'cycles'
+# Event count (approx.): 2887519772004
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    11.14%     3.05%     8.08%    11817:fapolicyd      
+     9.36%     2.85%     6.51%    14718:OASManager     
+     9.28%     2.84%     6.44%    14726:OASManager     
+     9.28%     2.82%     6.45%    14724:OASManager     
+     9.26%     2.69%     6.57%    14721:OASManager     
+     9.25%     2.74%     6.51%    14729:OASManager     
+     6.98%     4.21%     2.77%    14776:OAS Res Br<-Mgr
+     5.61%     3.98%     1.63%    14760:Collect FA Evnt
+     4.71%     4.71%     0.00%        0:swapper        
+     3.00%     1.56%     1.44%      991:auditd         
+     2.47%     1.51%     0.96%      848:systemd-journal
+     1.87%     1.78%     0.09%    14964:cp             
+     1.85%     1.77%     0.08%    14963:cp             
+     1.83%     1.74%     0.08%    14962:cp             
+     1.82%     1.75%     0.08%    14965:cp             
+     1.75%     1.36%     0.40%      995:audisp-syslog  
+     1.60%     0.91%     0.69%    14775:OAS Req Br->Mgr
+     1.55%     0.94%     0.61%    14735:OAS Req Mgr<-Br
+     1.35%     0.86%     0.49%    11328:in:imjournal   
+     1.33%     1.14%     0.19%    11815:fapolicyd      
+     1.27%     0.96%     0.30%      996:auditd         
+     1.15%     0.77%     0.39%    14733:OAS Res Mgr->Br
+     0.56%     0.45%     0.11%    14762:Send FA Reply  
+     0.50%     0.50%     0.00%       78:kauditd        
+     0.15%     0.10%     0.05%    14720:Timeout Thread 
+     0.15%     0.11%     0.05%    14722:Timeout Thread 
+     0.14%     0.08%     0.06%    14728:Timeout Thread 
+     0.14%     0.09%     0.05%    14725:Timeout Thread 
+     0.11%     0.07%     0.04%    14731:Timeout Thread 
+     0.08%     0.08%     0.00%      993:auditd         
+     0.04%     0.04%     0.00%    14806:kworker/u16:0-x
+     0.04%     0.03%     0.01%    11329:rs:main Q:Reg  
+     0.04%     0.04%     0.00%       17:rcu_preempt    
+     0.03%     0.03%     0.00%    11782:kworker/u16:4-e
+     0.03%     0.03%     0.00%      127:kworker/1:1H-xf
+     0.03%     0.03%     0.00%      972:xfsaild/dm-2   
+     0.02%     0.02%     0.00%    14938:kworker/4:1-xfs
+     0.02%     0.02%     0.00%    14910:kworker/1:2-xfs
+     0.02%     0.02%     0.00%    14968:journal-offline
+     0.01%     0.01%     0.00%    14973:journal-offline
+     0.01%     0.01%     0.00%    14969:journal-offline
+     0.01%     0.01%     0.00%    14970:journal-offline
+     0.01%     0.01%     0.00%    14972:journal-offline
+     0.01%     0.01%     0.00%    14940:kworker/6:2-eve
+     0.01%     0.01%     0.00%      558:kworker/7:1H-kb
+     0.01%     0.01%     0.00%    14923:kworker/3:2-eve
+     0.01%     0.01%     0.00%    14937:kworker/5:1-mm_
+     0.01%     0.01%     0.00%    14939:kworker/0:1-xfs
+     0.01%     0.01%     0.00%    14967:kworker/7:1    
+     0.01%     0.01%     0.00%       94:kworker/6:1H-xf
+     0.01%     0.01%     0.00%    14852:kworker/2:1-mm_
+     0.01%     0.00%     0.00%    14781:vmstat         
+     0.01%     0.00%     0.00%    14954:perf           
+     0.01%     0.01%     0.00%      348:kworker/5:1H-xf
+     0.01%     0.01%     0.00%    14971:kworker/3:0    
+     0.01%     0.01%     0.00%       16:pr/tty0        
+     0.01%     0.01%     0.00%    14957:unix_chkpwd    
+     0.00%     0.00%     0.00%      308:kworker/3:1H-kb
+     0.00%     0.00%     0.00%      607:kworker/2:1H-xf
+     0.00%     0.00%     0.00%      612:kworker/4:1H-xf
+     0.00%     0.00%     0.00%      774:xfsaild/dm-0   
+     0.00%     0.00%     0.00%      615:kworker/0:1H-xf
+     0.00%     0.00%     0.00%       55:ksoftirqd/6    
+     0.00%     0.00%     0.00%    14955:sudo           
+     0.00%     0.00%     0.00%    14909:kworker/7:0-eve
+     0.00%     0.00%     0.00%       61:ksoftirqd/7    
+     0.00%     0.00%     0.00%     3064:macompatsvc    
+     0.00%     0.00%     0.00%    14719:OAS Mount Watch
+     0.00%     0.00%     0.00%     4318:tmux: server   
+     0.00%     0.00%     0.00%       31:ksoftirqd/2    
+     0.00%     0.00%     0.00%       84:khugepaged     
+     0.00%     0.00%     0.00%     3065:macompatsvc    
+     0.00%     0.00%     0.00%     1036:irqbalance     
+     0.00%     0.00%     0.00%    11818:fapolicyd      
+     0.00%     0.00%     0.00%       15:ksoftirqd/0    
+     0.00%     0.00%     0.00%    14777:OAS Br WatchDog
+     0.00%     0.00%     0.00%    14714:OAS Manager    
+     0.00%     0.00%     0.00%       49:ksoftirqd/5    
+     0.00%     0.00%     0.00%    14960:seq            
+     0.00%     0.00%     0.00%    14961:xargs          
+     0.00%     0.00%     0.00%     1032:dbus-broker    
+     0.00%     0.00%     0.00%    14958:time           
+     0.00%     0.00%     0.00%    11206:sshd           
+     0.00%     0.00%     0.00%        1:systemd        
+     0.00%     0.00%     0.00%     1069:gdbus          
+
+
+#
+# (Tip: Profiling branch (mis)predictions with: perf record -b / perf report)
+#

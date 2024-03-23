@@ -1,0 +1,43 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 1K of event 'cycles'
+# Event count (approx.): 45108762687
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    58.73%    55.08%     3.65%     3363:cp             
+    31.28%    13.61%    17.67%     1827:auditd         
+     3.49%     3.49%     0.00%        0:swapper        
+     3.18%     3.18%     0.00%       73:kauditd        
+     0.93%     0.93%     0.00%     1828:auditd         
+     0.58%     0.58%     0.00%     3319:kworker/u16:1-e
+     0.47%     0.47%     0.00%      333:kworker/6:1H-xf
+     0.29%     0.23%     0.06%     3358:unix_chkpwd    
+     0.24%     0.24%     0.00%       39:kworker/3:0H-xf
+     0.22%     0.22%     0.00%     2247:kworker/6:1-xfs
+     0.21%     0.21%     0.00%     2966:kworker/u16:2-e
+     0.08%     0.04%     0.05%     3356:sudo           
+     0.06%     0.06%     0.00%       89:kworker/0:1H-xf
+     0.06%     0.06%     0.00%     2917:kworker/0:0-mm_
+     0.05%     0.05%     0.00%     3361:seq            
+     0.04%     0.04%     0.00%       17:rcu_preempt    
+     0.02%     0.00%     0.02%     1648:tmux: server   
+     0.02%     0.02%     0.00%     3360:bash           
+     0.02%     0.02%     0.00%     3351:kworker/5:2-eve
+     0.01%     0.01%     0.01%     1590:in:imjournal   
+     0.01%     0.01%     0.00%      700:systemd-journal
+     0.01%     0.01%     0.00%      506:kworker/4:1H-kb
+     0.00%     0.00%     0.00%     3362:xargs          
+     0.00%     0.00%     0.00%     1591:rs:main Q:Reg  
+     0.00%     0.00%     0.00%     3181:sshd           
+     0.00%     0.00%     0.00%     1094:polkitd        
+     0.00%     0.00%     0.00%     3355:perf           
+
+
+#
+# (Tip: Limit to show entries above 5% only: perf report --percent-limit 5)
+#

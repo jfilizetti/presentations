@@ -1,0 +1,43 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 1K of event 'cycles'
+# Event count (approx.): 77559661744
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    24.42%    23.38%     1.04%     3599:cp             
+    23.66%    22.63%     1.03%     3597:cp             
+    23.48%    22.22%     1.26%     3598:cp             
+    23.41%    21.92%     1.48%     3600:cp             
+     1.96%     1.96%     0.00%        0:swapper        
+     0.72%     0.72%     0.00%      815:xfsaild/dm-2   
+     0.50%     0.50%     0.00%     3319:kworker/u16:1-e
+     0.49%     0.49%     0.00%     3470:kworker/u16:3-e
+     0.31%     0.31%     0.00%     3376:kworker/2:0-eve
+     0.24%     0.24%     0.00%       39:kworker/3:0H-xf
+     0.21%     0.21%     0.00%      125:kworker/5:1H-xf
+     0.13%     0.13%     0.00%     3592:unix_chkpwd    
+     0.11%     0.11%     0.00%     3531:kworker/4:0-xfs
+     0.07%     0.07%     0.00%       17:rcu_preempt    
+     0.06%     0.06%     0.00%     3491:kworker/5:0-eve
+     0.06%     0.06%     0.00%       49:ksoftirqd/5    
+     0.06%     0.01%     0.04%     3590:sudo           
+     0.05%     0.05%     0.00%     3490:kworker/1:2-eve
+     0.05%     0.05%     0.00%     3494:kworker/7:0-xfs
+     0.01%     0.01%     0.00%     3594:bash           
+     0.00%     0.00%     0.00%     3596:xargs          
+     0.00%     0.00%     0.00%     3595:seq            
+     0.00%     0.00%     0.00%        1:systemd        
+     0.00%     0.00%     0.00%      863:tuned          
+     0.00%     0.00%     0.00%       73:kauditd        
+     0.00%     0.00%     0.00%      700:systemd-journal
+     0.00%     0.00%     0.00%     3589:perf           
+
+
+#
+# (Tip: To record every process run by a user: perf record -u <user>)
+#

@@ -1,0 +1,4 @@
+Command exited with non-zero status 123
+seconds 514.37  system: 38.46  user: 3.24
+[ perf record: Woken up 105 times to write data ]
+[ perf record: Captured and wrote 27.390 MB perf.cp.data (138988 samples) ]

@@ -1,0 +1,18 @@
+[jeremy@fedora perf]$ find nostig2/ stig_audit5/ stig_log_audit4/ stig_full3/ -name "results.log" | xargs grep seconds | sort | tr ':' ' '
+nostig2/1/results.log seconds 10.15  system  8.07  user  1.25
+nostig2/2/results.log seconds 8.61  system  13.40  user  2.08
+nostig2/4/results.log seconds 9.25  system  28.47  user  4.16
+nostig2/8/results.log seconds 11.60  system  59.96  user  8.94
+stig_audit5/1/results.log seconds 12.73  system  10.64  user  1.19
+stig_audit5/2/results.log seconds 18.39  system  19.87  user  2.42
+stig_audit5/4/results.log seconds 36.87  system  45.62  user  5.66
+stig_audit5/8/results.log seconds 75.29  system  92.86  user  11.50
+stig_log_audit4/1/results.log seconds 14.51  system  12.32  user  1.17
+stig_log_audit4/2/results.log seconds 21.10  system  25.61  user  2.40
+stig_log_audit4/4/results.log seconds 44.12  system  56.91  user  5.33
+stig_log_audit4/8/results.log seconds 94.68  system  110.22  user  10.23
+stig_full3/1/results.log seconds 514.37  system  38.46  user  3.24
+stig_full3/2/results.log seconds 527.76  system  78.20  user  6.43
+stig_full3/4/results.log seconds 415.91  system  115.32  user  8.68
+stig_full3/8/results.log seconds 511.97  system  239.39  user  15.29
+

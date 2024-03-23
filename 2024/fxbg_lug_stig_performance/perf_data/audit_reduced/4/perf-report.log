@@ -1,0 +1,44 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 2K of event 'cycles'
+# Event count (approx.): 86817843729
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    24.30%    22.85%     1.45%     5314:cp             
+    24.07%    23.20%     0.87%     5316:cp             
+    23.97%    22.41%     1.55%     5317:cp             
+    23.63%    22.51%     1.12%     5315:cp             
+     1.35%     1.35%     0.00%        0:swapper        
+     0.73%     0.73%     0.00%     5261:kworker/u16:4-e
+     0.55%     0.55%     0.00%      815:xfsaild/dm-2   
+     0.34%     0.34%     0.00%      300:kworker/1:1H-xf
+     0.18%     0.18%     0.00%     5241:kworker/3:0-eve
+     0.17%     0.13%     0.04%     5309:unix_chkpwd    
+     0.16%     0.16%     0.00%     5123:kworker/0:0-eve
+     0.13%     0.13%     0.00%      333:kworker/6:1H-xf
+     0.10%     0.10%     0.00%     5263:kworker/7:1-xfs
+     0.06%     0.05%     0.01%     5307:sudo           
+     0.06%     0.06%     0.00%       17:rcu_preempt    
+     0.05%     0.05%     0.00%       61:ksoftirqd/7    
+     0.05%     0.05%     0.00%     5282:kworker/4:0-eve
+     0.03%     0.03%     0.00%     4762:kworker/1:2-xfs
+     0.02%     0.02%     0.00%     5281:kworker/5:2-eve
+     0.01%     0.00%     0.01%      863:tuned          
+     0.01%     0.00%     0.01%     5313:xargs          
+     0.01%     0.01%     0.00%     5311:bash           
+     0.01%     0.01%     0.00%     5312:seq            
+     0.00%     0.00%     0.00%        1:systemd        
+     0.00%     0.00%     0.00%     1827:auditd         
+     0.00%     0.00%     0.00%     5232:vmstat         
+     0.00%     0.00%     0.00%     1095:tuned          
+     0.00%     0.00%     0.00%     5306:perf           
+
+
+#
+# (Tip: Show individual samples with: perf script)
+#

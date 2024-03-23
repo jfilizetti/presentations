@@ -1,0 +1,48 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 2K of event 'cycles'
+# Event count (approx.): 96435126831
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    31.12%    29.55%     1.57%    11646:cp             
+    18.47%     9.59%     8.88%      991:auditd         
+    13.26%     8.96%     4.30%      848:systemd-journal
+    10.63%     8.70%     1.93%      995:audisp-syslog  
+     9.52%     9.52%     0.00%        0:swapper        
+     8.40%     6.54%     1.86%      996:auditd         
+     3.15%     3.15%     0.00%       78:kauditd        
+     2.64%     1.36%     1.28%    11328:in:imjournal   
+     0.67%     0.45%     0.22%    11329:rs:main Q:Reg  
+     0.59%     0.54%     0.05%      993:auditd         
+     0.34%     0.34%     0.00%       94:kworker/6:1H-kb
+     0.24%     0.24%     0.00%    10294:kworker/u16:0-e
+     0.21%     0.21%     0.00%    11375:kworker/u16:2-x
+     0.19%     0.19%     0.00%    11647:kworker/6:2    
+     0.15%     0.15%     0.00%    11641:unix_chkpwd    
+     0.11%     0.11%     0.00%    11569:kworker/4:2-kdm
+     0.10%     0.10%     0.00%    11598:kworker/3:1-eve
+     0.07%     0.07%     0.00%    11639:sudo           
+     0.05%     0.05%     0.00%    11281:kworker/1:1-eve
+     0.04%     0.04%     0.00%    10986:kworker/0:2-xfs
+     0.03%     0.03%     0.00%      612:kworker/4:1H-xf
+     0.01%     0.01%     0.00%       17:rcu_preempt    
+     0.01%     0.01%     0.00%    11645:xargs          
+     0.01%     0.00%     0.00%    11630:vmstat         
+     0.00%     0.00%     0.00%    11643:bash           
+     0.00%     0.00%     0.00%    11644:seq            
+     0.00%     0.00%     0.00%       25:ksoftirqd/1    
+     0.00%     0.00%     0.00%     1069:gdbus          
+     0.00%     0.00%     0.00%       84:khugepaged     
+     0.00%     0.00%     0.00%     1032:dbus-broker    
+     0.00%     0.00%     0.00%        1:systemd        
+     0.00%     0.00%     0.00%    11638:perf           
+
+
+#
+# (Tip: Treat branches as callchains: perf report --branch-history)
+#

@@ -1,0 +1,64 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 10K of event 'cycles'
+# Event count (approx.): 371351523726
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    29.55%    15.42%    14.12%     1827:auditd         
+     8.62%     8.62%     0.00%        0:swapper        
+     6.87%     6.42%     0.45%     3463:cp             
+     6.67%     6.29%     0.37%     3469:cp             
+     6.59%     6.32%     0.27%     3468:cp             
+     6.58%     6.29%     0.29%     3467:cp             
+     6.54%     6.30%     0.24%     3466:cp             
+     6.53%     6.10%     0.44%     3464:cp             
+     6.44%     6.10%     0.34%     3462:cp             
+     6.34%     6.05%     0.29%     3465:cp             
+     6.20%     6.20%     0.00%       73:kauditd        
+     0.60%     0.57%     0.03%     1828:auditd         
+     0.37%     0.37%     0.00%      815:xfsaild/dm-2   
+     0.31%     0.31%     0.00%     2966:kworker/u16:2-e
+     0.25%     0.25%     0.00%     3319:kworker/u16:1-x
+     0.18%     0.18%     0.00%     2952:kworker/u16:0-e
+     0.17%     0.17%     0.00%      506:kworker/4:1H-kb
+     0.12%     0.12%     0.00%      300:kworker/1:1H-xf
+     0.10%     0.10%     0.00%     2247:kworker/6:1-mm_
+     0.10%     0.10%     0.00%     3317:kworker/7:2-xfs
+     0.09%     0.09%     0.00%      319:kworker/7:1H-xf
+     0.08%     0.08%     0.00%     3376:kworker/2:0-mm_
+     0.08%     0.08%     0.00%      125:kworker/5:1H-xf
+     0.08%     0.08%     0.00%     3364:kworker/1:0-eve
+     0.07%     0.07%     0.00%     3351:kworker/5:2-eve
+     0.06%     0.06%     0.00%      333:kworker/6:1H-xf
+     0.06%     0.06%     0.00%     3431:kworker/4:1-mm_
+     0.06%     0.06%     0.00%       39:kworker/3:0H-kb
+     0.05%     0.05%     0.00%     3377:kworker/3:2-mm_
+     0.04%     0.04%     0.00%     2917:kworker/0:0-xfs
+     0.04%     0.04%     0.00%     3457:unix_chkpwd    
+     0.03%     0.03%     0.00%      544:kworker/2:1H-kb
+     0.03%     0.03%     0.00%     3128:kworker/4:2-xfs
+     0.02%     0.02%     0.00%       17:rcu_preempt    
+     0.02%     0.02%     0.00%       89:kworker/0:1H-xf
+     0.02%     0.01%     0.01%      700:systemd-journal
+     0.02%     0.01%     0.00%     3455:sudo           
+     0.01%     0.01%     0.00%       43:ksoftirqd/4    
+     0.01%     0.01%     0.00%     3346:vmstat         
+     0.00%     0.00%     0.00%       15:ksoftirqd/0    
+     0.00%     0.00%     0.00%     3461:xargs          
+     0.00%     0.00%     0.00%     1590:in:imjournal   
+     0.00%     0.00%     0.00%     1099:gdbus          
+     0.00%     0.00%     0.00%     3460:seq            
+     0.00%     0.00%     0.00%     3458:time           
+     0.00%     0.00%     0.00%        1:systemd        
+     0.00%     0.00%     0.00%     3454:perf           
+     0.00%     0.00%     0.00%     1591:rs:main Q:Reg  
+
+
+#
+# (Tip: List events using substring match: perf list <keyword>)
+#

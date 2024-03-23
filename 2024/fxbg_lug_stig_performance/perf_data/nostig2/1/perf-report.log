@@ -1,0 +1,37 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 664  of event 'cycles'
+# Event count (approx.): 22068427217
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    96.97%    90.42%     6.55%     3539:cp             
+     1.08%     1.08%     0.00%     3319:kworker/u16:1-e
+     0.48%     0.48%     0.00%        0:swapper        
+     0.46%     0.45%     0.00%     3534:unix_chkpwd    
+     0.21%     0.21%     0.00%      506:kworker/4:1H-kb
+     0.21%     0.18%     0.03%     3532:sudo           
+     0.20%     0.20%     0.00%     3493:kworker/6:2-mm_
+     0.08%     0.08%     0.00%       17:rcu_preempt    
+     0.08%     0.08%     0.00%     3535:time           
+     0.05%     0.00%     0.05%     3538:xargs          
+     0.05%     0.05%     0.00%     3491:kworker/5:0-eve
+     0.04%     0.04%     0.00%     3536:bash           
+     0.02%     0.02%     0.00%      700:systemd-journal
+     0.02%     0.02%     0.00%     3522:vmstat         
+     0.02%     0.02%     0.00%      826:dbus-broker    
+     0.01%     0.01%     0.00%        1:systemd        
+     0.01%     0.01%     0.00%       16:pr/tty0        
+     0.01%     0.00%     0.01%     1827:auditd         
+     0.00%     0.00%     0.00%     1095:tuned          
+     0.00%     0.00%     0.00%     3537:seq            
+     0.00%     0.00%     0.00%     3530:perf           
+
+
+#
+# (Tip: Save output of perf stat using: perf stat record <target workload>)
+#

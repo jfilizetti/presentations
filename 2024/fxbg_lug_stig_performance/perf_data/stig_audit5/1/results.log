@@ -1,0 +1,3 @@
+seconds 12.73  system: 10.64  user: 1.19
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 0.367 MB perf.cp.data (1213 samples) ]

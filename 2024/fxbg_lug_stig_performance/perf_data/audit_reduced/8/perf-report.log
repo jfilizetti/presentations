@@ -1,0 +1,56 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 4K of event 'cycles'
+# Event count (approx.): 184976284177
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    11.98%    11.46%     0.53%     5350:cp             
+    11.87%    11.08%     0.79%     5355:cp             
+    11.74%    11.05%     0.69%     5351:cp             
+    11.74%    11.21%     0.53%     5356:cp             
+    11.71%    11.07%     0.64%     5352:cp             
+    11.58%    10.82%     0.76%     5349:cp             
+    11.52%    10.89%     0.63%     5354:cp             
+    11.35%    10.80%     0.55%     5353:cp             
+     2.92%     2.92%     0.00%        0:swapper        
+     0.88%     0.88%     0.00%     5261:kworker/u16:4-e
+     0.75%     0.75%     0.00%      815:xfsaild/dm-2   
+     0.58%     0.58%     0.00%     4612:kworker/u16:2-e
+     0.27%     0.27%     0.00%      506:kworker/4:1H-xf
+     0.18%     0.18%     0.00%      125:kworker/5:1H-xf
+     0.16%     0.16%     0.00%     3495:kworker/2:1-mm_
+     0.09%     0.09%     0.00%       61:ksoftirqd/7    
+     0.08%     0.08%     0.00%      319:kworker/7:1H-kb
+     0.08%     0.08%     0.00%     5344:unix_chkpwd    
+     0.07%     0.07%     0.00%     5282:kworker/4:0-eve
+     0.06%     0.06%     0.00%     5123:kworker/0:0-mm_
+     0.05%     0.05%     0.00%     4762:kworker/1:2-mm_
+     0.04%     0.04%     0.00%     4874:kworker/7:0-xfs
+     0.04%     0.04%     0.00%     5241:kworker/3:0-xfs
+     0.04%     0.04%     0.00%     5295:kworker/6:0-eve
+     0.03%     0.03%     0.00%     5281:kworker/5:2-eve
+     0.03%     0.03%     0.00%      333:kworker/6:1H-xf
+     0.03%     0.03%     0.00%      300:kworker/1:1H-xf
+     0.02%     0.00%     0.02%     1590:in:imjournal   
+     0.02%     0.02%     0.00%       89:kworker/0:1H-xf
+     0.02%     0.02%     0.00%       31:ksoftirqd/2    
+     0.02%     0.02%     0.00%       25:ksoftirqd/1    
+     0.02%     0.02%     0.00%     5342:sudo           
+     0.01%     0.01%     0.00%     5348:xargs          
+     0.00%     0.00%     0.00%     1827:auditd         
+     0.00%     0.00%     0.00%     5347:seq            
+     0.00%     0.00%     0.00%        1:systemd        
+     0.00%     0.00%     0.00%     5345:time           
+     0.00%     0.00%     0.00%       17:rcu_preempt    
+     0.00%     0.00%     0.00%       42:migration/4    
+     0.00%     0.00%     0.00%     5341:perf           
+
+
+#
+# (Tip: Save output of perf stat using: perf stat record <target workload>)
+#

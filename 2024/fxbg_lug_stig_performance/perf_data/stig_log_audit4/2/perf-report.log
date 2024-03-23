@@ -1,0 +1,54 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 4K of event 'cycles'
+# Event count (approx.): 197882753006
+#
+# Overhead       sys       usr      Pid:Command        
+# ........  ........  ........  .......................
+#
+    17.07%     9.68%     7.38%      991:auditd         
+    15.73%    14.98%     0.75%    11681:cp             
+    15.12%    14.32%     0.80%    11680:cp             
+    13.28%     9.65%     3.64%      848:systemd-journal
+    11.55%     9.00%     2.55%      995:audisp-syslog  
+    10.91%    10.91%     0.00%        0:swapper        
+     8.36%     6.81%     1.54%      996:auditd         
+     4.92%     4.92%     0.00%       78:kauditd        
+     1.13%     0.69%     0.44%    11328:in:imjournal   
+     0.57%     0.54%     0.02%      993:auditd         
+     0.29%     0.29%     0.00%    11512:kworker/u16:1-e
+     0.18%     0.18%     0.00%      972:xfsaild/dm-2   
+     0.14%     0.14%     0.00%    10294:kworker/u16:0-x
+     0.11%     0.11%     0.00%      612:kworker/4:1H-kb
+     0.09%     0.09%     0.00%      348:kworker/5:1H-xf
+     0.07%     0.06%     0.01%    11675:unix_chkpwd    
+     0.07%     0.07%     0.00%      127:kworker/1:1H-xf
+     0.07%     0.07%     0.00%    11660:kworker/2:1-mm_
+     0.06%     0.06%     0.00%    11361:kworker/5:1-mm_
+     0.05%     0.05%     0.00%    11597:kworker/1:2-mm_
+     0.04%     0.04%     0.00%    10986:kworker/0:2-xfs
+     0.03%     0.03%     0.00%      558:kworker/7:1H-xf
+     0.03%     0.03%     0.00%      615:kworker/0:1H-xf
+     0.02%     0.02%     0.00%    11673:sudo           
+     0.02%     0.02%     0.00%    11569:kworker/4:2-mm_
+     0.02%     0.02%     0.00%    11598:kworker/3:1-eve
+     0.02%     0.02%     0.00%    11647:kworker/6:2-xfs
+     0.02%     0.02%     0.00%    11278:kworker/7:0-xfs
+     0.01%     0.01%     0.00%       17:rcu_preempt    
+     0.00%     0.00%     0.00%    11678:seq            
+     0.00%     0.00%     0.00%    11677:bash           
+     0.00%     0.00%     0.00%    11676:time           
+     0.00%     0.00%     0.00%    11679:xargs          
+     0.00%     0.00%     0.00%       15:ksoftirqd/0    
+     0.00%     0.00%     0.00%        1:systemd        
+     0.00%     0.00%     0.00%    11630:vmstat         
+     0.00%     0.00%     0.00%       49:ksoftirqd/5    
+     0.00%     0.00%     0.00%    11672:perf           
+
+
+#
+# (Tip: To change sampling frequency to 100 Hz: perf record -F 100)
+#
